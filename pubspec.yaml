@@ -1,0 +1,54 @@
+name: life_reclaim
+description: "A privacy-first time management application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  get: ^4.6.6
+  flutter_hooks: ^0.20.5
+  
+  # Database
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  
+  # Serialization
+  json_annotation: ^4.9.0
+  
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  
+  # AI & Network Integration
+  http: ^1.1.0
+  ollama_dart: ^0.1.0
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+  # Code generation
+  drift_dev: ^2.20.1
+  build_runner: ^2.4.11
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
